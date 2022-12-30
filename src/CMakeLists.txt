@@ -43,7 +43,7 @@ else()
     endif()
 endif()
 
-target_link_libraries(svg_colorizer PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+target_link_libraries(svg_colorizer PRIVATE Qt${QT_VERSION_MAJOR}::Widgets qtadvanceddocking)
 
 set_target_properties(svg_colorizer PROPERTIES
     MACOSX_BUNDLE_GUI_IDENTIFIER my.example.com
